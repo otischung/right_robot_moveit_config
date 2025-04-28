@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: right_robot_description
+    relative_path: urdf/right_robot.xacro
+  srdf:
+    relative_path: config/right_robot.srdf
+  package_settings:
+    author_name: Otis B.C. Chung
+    author_email: p76124605@gs.ncku.edu.tw
+    generated_timestamp: 1745843831
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

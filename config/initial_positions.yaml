@@ -1,0 +1,10 @@
+# Default initial positions for right_robot's ros2_control fake system
+
+initial_positions:
+  RJ1: 0.0
+  RJ2: 3.14159265359
+  RJ3: 1.57079632679
+  RJ4: 0.0
+  RJ5: 1.57079632679
+  RJ6: 1.57079632679
+  RJ7: 0.0
